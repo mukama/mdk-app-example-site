@@ -170,7 +170,7 @@ spec:
                 apiRetry: 3
               }
     # The EMCD, SpiderPool and Foundry workers run through workers/v1-pool (see
-    # its README). Real credentials go in each worker's `env`, e.g.
+    # the README). Real credentials go in each worker's `env`, e.g.
     # `env: { EMCD_API_KEY: "${EMCD_API_KEY}", EMCD_API_SECRET: "${EMCD_API_SECRET}" }`;
     # without them the vendor's mock fixture keys are used. A real pool also
     # needs `apiUrl` instead of the mock's host and port, and `mock: false`.
